@@ -41,3 +41,6 @@ extern "C" void _ZN7android21SurfaceComposerClient17setDisplaySurfaceERKNS_2spIN
   _ZN7android21SurfaceComposerClient17setDisplaySurfaceERKNS_2spINS_7IBinderEEENS1_INS_22IGraphicBufferProducerEEE(
       token, bufferProducer);
 }
+
+extern "C" void _ZN7android11BufferQueue17createBufferQueueEPNS_2spINS_22IGraphicBufferProducerEEEPNS1_INS_22IGraphicBufferConsumerEEERKNS1_INS_19IGraphicBufferAllocEEE(
+    uint32_t token, uint32_t IGraphicBufferAlloc);
