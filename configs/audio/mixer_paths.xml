@@ -346,7 +346,6 @@
     <!-- anc headset end-->
     <!-- aanc handset mic -->
     <ctl name="AIF1_CAP Mixer SLIM TX9" value="0" />
-    <ctl name="SLIM_0_RX AANC MUX" value="ZERO" />
     <!-- aanc handset mic end -->
     <!-- ssr qmic -->
     <ctl name="AIF1_CAP Mixer SLIM TX10" value="0" />
@@ -1794,7 +1793,6 @@
         <ctl name="AIF1_CAP Mixer SLIM TX8" value="1" />
         <ctl name="AIF1_CAP Mixer SLIM TX9" value="1" />
         <ctl name="SLIM_0_TX Channels" value="Three" />
-        <ctl name="SLIM_0_RX AANC MUX" value="SLIMBUS_0_TX" />
         <ctl name="SLIM TX9 MUX" value="DEC7" />
         <ctl name="DEC7 MUX" value="DMIC1" />
         <ctl name="SLIM TX8 MUX" value="DEC8" />
@@ -2172,9 +2170,6 @@
         <path name="headset-mic-generic" />
         <ctl name="ADC2 Volume" value="8" />
         <ctl name="DEC5 Volume" value="84" />
-    </path>
-
-    <path name="speaker">
     </path>
 
     <path name="speaker-headset">
