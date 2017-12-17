@@ -133,8 +133,8 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service
 
 # Gesture Handler
-PRODUCT_PACKAGES += \
-    GestureHandler
+#PRODUCT_PACKAGES += \
+#    GestureHandler
 
 # GPS
 PRODUCT_PACKAGES += \
